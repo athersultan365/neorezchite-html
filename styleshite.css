@@ -1,0 +1,2315 @@
+    * {
+
+        box-sizing: border-box;
+        /* font-family: 'Courier New', Courier, monospace; */
+        margin: 0;
+        padding: 0;
+        /* border:3px solid blue; */
+
+
+    }
+
+    .parentone {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .parenttwo {
+        width: 95%;
+        /* border: 1px solid green; */
+        display: flex;
+        justify-content: space-between;
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+
+    .childonelogo {
+        width: 200px;
+
+    }
+
+    .childtwomanu ul {
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid green; */
+        list-style: none;
+
+    }
+
+    .manu {
+        font-size: 18px;
+        position: relative;
+
+    }
+
+    .childthreelogin {
+        width: 200px;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .childthreelogin ul {
+
+        margin: auto;
+        list-style: none;
+    }
+
+    .underline {
+        position: absolute;
+
+        width: 50px;
+        top: 25px;
+        display: none;
+    }
+
+    .lineshow {
+        width: 100%;
+    }
+
+    .manu:hover .underline {
+        display: block;
+        transition: 4s;
+        cursor: pointer;
+    }
+
+
+
+
+    .dropdown {
+        width: 750px;
+        height: 0px;
+        /* border: 4px solid green; */
+        display: flex;
+        background-color: white;
+        position: absolute;
+        top: 50px;
+        overflow: hidden;
+        left: -100px;
+        opacity: 0;
+        z-index: 1;
+    }
+
+    .manu:hover .dropdown {
+        height: 450px;
+        transition: 1s;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+    .dropdown2 {
+        width: 650px;
+        height: 0px;
+        border: 1px solid;
+        display: flex;
+        background-color: white;
+        margin-left: -120px;
+        position: absolute;
+        top: 40px;
+        left: -50px;
+        overflow: hidden;
+        opacity: 0;
+        z-index: 1;
+    }
+
+    .manu:hover .dropdown2 {
+        height: 450px;
+        transition: 1s;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+    .dropdown3 {
+        width: 650px;
+        height: 0px;
+        border: 1px solid;
+        display: flex;
+        /* margin-left: -230px; */
+        background-color: white;
+        position: absolute;
+        top: 40px;
+        left: -250px;
+        overflow: hidden;
+        z-index: 1;
+        opacity: 0;
+    }
+
+    .manu:hover .dropdown3 {
+        height: 450px;
+        transition: 1s;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .solution1 {
+        width: 50%;
+        height: 100%;
+        /* border: 1px solid white; */
+        padding-left: 20px;
+
+    }
+
+    .service {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+
+    }
+
+    .serviceimg {
+        width: 100px;
+    }
+
+    .serviceimg2 {
+        width: 100px;
+    }
+
+    .handservice {
+        width: 100%;
+
+
+    }
+
+
+    .started {
+        width: 130px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(0, 200, 175);
+    }
+
+    .started:hover.started {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+
+
+    .secondmanu {
+        width: 95%;
+        /* border: 3px solid green; */
+        display: flex;
+        justify-content: space-between;
+        /* justify-content: center; */
+        align-items: center;
+        display: none;
+
+    }
+
+    .childonelogo2 {
+        width: 200px;
+
+    }
+
+    .manulist {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(0, 188, 165);
+    }
+
+    .border1 {
+
+        font-size: 30px;
+
+    }
+
+    /* ======================Section 2=========================================== */
+
+    .parentthree {
+        width: 100%;
+        /* height: 85vh; */
+        /* border: 4px solid red; */
+        /* overflow: hidden; */
+
+
+    }
+
+    .left-right {
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+
+    .child3 {
+        width: 40%;
+        height: 78vh;
+        /* border: 1px solid green; */
+        /* background-color: aqua; */
+        /* display: flex;
+        flex-direction: column; */
+        /* justify-content: space-evenly; */
+
+    }
+
+
+    .child3text {
+        padding-left: 40px;
+    }
+
+    .child3padding {
+        padding-top: 40px;
+        font-size: 40px;
+
+    }
+
+    .childp {
+        padding-top: 40px;
+        font-size: 20px;
+
+
+
+    }
+
+
+    .learn2 {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        margin-left: 40px;
+        margin-top: 30px;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .learn2:hover.learn2 {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    /* //////////////////////////////////right faceing area///////////////////// */
+
+
+    .child4 {
+        width: 60%;
+        height: 78vh;
+        /* border: 2px solid yellow; */
+        /* background-color: rgb(78, 192, 192); */
+
+
+    }
+
+    /* ///////////////// Header Slider  //////////////////////////// */
+
+    .parent-sliderr {
+        height: 170px;
+        width: 60%;
+        position: absolute;
+        top: 250px;
+        left: 85px;
+        /* border: 3px solid red; */
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    /* ///////////////// Header Slider  //////////////////////////// */
+
+
+
+    .sliderfram {
+        width: 120%;
+        height: 100%;
+        /* height: max-content; */
+        /* border: 7px solid blue; */
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .boy1 {
+
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        animation-name: boy;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    .boy {
+        width: 100%;
+        height: 100%;
+    }
+
+    .girl1 {
+        height: 100%;
+        width: 20%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .girl {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+    @keyframes boy {
+
+        0% {
+
+
+            left: 0%;
+        }
+
+        100% {
+            left: 130%;
+
+        }
+
+    }
+
+    .dly1 {
+        animation-delay: 1.5s;
+    }
+
+    .dly2 {
+        animation-delay: 3s;
+    }
+
+    .dly3 {
+        animation-delay: 4.5s;
+    }
+
+
+
+    .twoface {
+        width: 100%;
+        height: 100%;
+        /* border: 9px solid blue; */
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .circleorange {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .orang {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .circleorange2 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: -1;
+
+    }
+
+    .face {
+        width: 100%;
+        height: 100%;
+        background-color: skyblue;
+        position: relative;
+
+    }
+
+    .facea {
+        width: 50%;
+        /* height: 100%; */
+        position: relative;
+    }
+
+    .face1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .line {
+        width: 200px;
+        position: absolute;
+        right: -10%;
+        /* top: -10%; */
+        animation-name: line1;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+    }
+
+    @keyframes line1 {
+
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: 20px;
+
+        }
+    }
+
+
+
+    .lineup {
+        width: 100%;
+    }
+
+
+    .line2 {
+        width: 200px;
+        position: absolute;
+        left: 0px;
+        bottom: 0%;
+        animation-name: line0;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+
+    }
+
+    @keyframes line0 {
+
+        0% {
+            bottom: 0px;
+        }
+
+        100% {
+            bottom: 20px;
+
+        }
+    }
+
+    .horn {
+        width: 60px;
+        position: absolute;
+        right: 90px;
+        bottom: 55px;
+
+
+    }
+
+    .horn1 {
+        width: 100%;
+
+
+    }
+
+    /* ///////////////////////////////////////////// */
+    /* ================section2 face 3 ================= */
+
+
+    .face3 {
+        width: 50%;
+        /* border: 1px solid blue; */
+        /* background-color: blueviolet; */
+        position: relative;
+        overflow: hidden;
+
+    }
+
+
+    .faceb {
+        width: 50%;
+        /* border: 1px solid greenyellow; */
+        position: relative;
+        /* height: 100%; */
+
+    }
+
+    .face2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bar {
+        width: 190px;
+        height: 33px;
+        /* background-color: aquamarine; */
+        z-index: 1;
+        /* align-items: center; */
+        position: absolute;
+        top: 200px;
+        left: 50px;
+    }
+
+    .bar1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dot {
+        width: 235px;
+        height: 28px;
+        border-radius: 15px;
+        /* border: .5px solid black; */
+        background-color: rgb(117, 223, 252);
+        position: absolute;
+        top: 200px;
+        left: 120px;
+        overflow: hidden;
+    }
+
+    .dotmove {
+        width: 100%;
+        height: 20px;
+        /* border: 1px solid blue; */
+        animation-name: dotrun;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        padding-top: 5px;
+
+
+    }
+
+    @keyframes dotrun {
+
+        0% {
+
+            margin-left: 0px;
+
+        }
+
+        100% {
+
+            margin-left: 50px;
+
+        }
+
+    }
+
+    .dotpic {
+        width: 110%;
+
+    }
+
+    .waives {
+        width: 200px;
+        /* background-color: blueviolet; */
+        /* border: 1px solid black; */
+        position: absolute;
+        top: 120px;
+        left: 50px;
+        overflow: hidden;
+        animation-name: grade;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes grade {
+
+        0% {
+
+            width: 0px;
+
+        }
+
+        100% {
+
+            width: 110px;
+
+        }
+
+    }
+
+    .graph2 {
+        width: 110px;
+        height: 30px;
+
+    }
+
+
+    .bitbox {
+        width: 250px;
+        /* height: 70px; */
+        border-radius: 5px;
+        /* border: 1px solid yellow; */
+        /* background-color: brown; */
+        position: absolute;
+        top: 300px;
+        left: 100px;
+        z-index: 1;
+        overflow: hidden;
+
+    }
+
+    .slidebit {
+        width: 100%;
+        /* border: 3px solid green; */
+        /* background-color:chocolate; */
+        animation-name: bitslide;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes bitslide {
+
+        0% {
+            margin-left: 0px;
+        }
+
+        100% {
+
+            margin-left: -305px;
+
+        }
+
+    }
+
+
+    .graph {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .circleorange3 {
+        width: 100px;
+        height: 100px;
+        /* background-color: crimson; */
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        z-index: 1;
+
+    }
+
+
+
+    .inercolor {
+        width: 60px;
+        height: 60px;
+        /* border: 1px solid green; */
+        /* background-color: blueviolet; */
+        position: absolute;
+        top: 110px;
+        right: 110px;
+        z-index: 1;
+        /* position: relative; */
+    }
+
+    .coloring {
+        width: 10px;
+        height: 10px;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+
+    }
+
+    .main {
+        top: 0px;
+        left: 0px;
+        animation-name: main1;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes main1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+
+
+
+
+    /* ////////////////////////line 1/////////////// */
+
+    .white {
+        top: 15px;
+        background-color: rgb(117, 223, 252);
+        animation-name: white1;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes white1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+
+    .blue {
+        top: 30px;
+        background-color: white;
+        animation-name: blue1;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes blue1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+    .red {
+        top: 45px;
+        background-color: magenta;
+        animation-name: red1;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes red1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+    /* ////////////////////////////line 2///////////////////// */
+
+
+    .green {
+        left: 15px;
+        top: 15px;
+        background-color: red;
+        animation-name: green1;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes green1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+
+
+    .yellow {
+        left: 15px;
+        top: 30px;
+        background-color: rgb(117, 223, 252);
+        animation-name: yellow1;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes yellow1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+
+
+
+    .pick {
+        left: 15px;
+        top: 45px;
+        background-color: white;
+        animation-name: pick1;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes pick1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+
+
+
+    /* /////////////////////////line 3///////////////////// */
+
+    .black {
+        left: 30px;
+        top: 30px;
+        animation-name: black1;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes white1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+    .brown {
+        left: 30px;
+        top: 45px;
+        animation-name: brown1;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes brown1 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+
+
+
+
+    /* ////////////////////////////////line 4//////////////////// */
+
+    .orang1 {
+        left: 45px;
+        top: 45px;
+        background-color: rgb(117, 223, 252);
+        animation-name: orang2;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes orang2 {
+
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+
+            opacity: 0;
+
+        }
+
+    }
+
+    /* =================Area Section Three====================================== */
+
+    .logos {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .logoarea {
+        width: 1200px;
+        /* border: 1px solid green; */
+        overflow: hidden;
+
+    }
+
+    .slidelogo {
+
+        width: 258%;
+        /* border: 1px solid yellow; */
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+
+    .arbanlog {
+        width: 90px;
+        margin-left: 15px;
+
+    }
+
+    .logopic {
+        width: 100%;
+
+
+
+    }
+
+    /* =======================Section forth================================================== */
+
+
+    .parentforth {
+
+        width: 100%;
+        height: max-content;
+        display: flex;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .child5 {
+        width: 10%;
+        /* height: 200px; */
+        /* border: 1px solid green; */
+        position: absolute;
+        top: 20px;
+        left: -100px;
+        /* padding-top: 100px; */
+    }
+
+    .criclegreen {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .childtext5 {
+        display: flex;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        z-index: 1;
+        padding-top: 20px;
+        /* margin-top: 200px; */
+    }
+
+
+
+    .padding1 {
+        text-align: center;
+        /* font-size: 40px; */
+        /* padding-top: 100px; */
+        margin: auto;
+    }
+
+    .padding2 {
+        font-size: 19px;
+        text-align: center;
+        /* text-align: justify; */
+        /* margin-top: 100px; */
+        margin: auto;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .learn3 {
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        margin-left: 40px;
+        margin-top: 30px;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .learn3:hover.learn3 {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    /* =================================section 5========================= */
+
+    .parentfive {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        padding-top: 100px;
+    }
+
+    .childa5 {
+        width: 50%;
+        /* border: 1px solid blue; */
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        padding-top: 50px;
+
+    }
+
+    .childa5text {
+        width: 50%;
+        /* border: 1px solid green; */
+    }
+
+    .distance {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    .distance2 {
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+
+    .learn4 {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        /* margin-left: 40px; */
+        margin-top: 30px;
+        /* font-weight: bold; */
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .learn4:hover.learn4 {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    .childb5 {
+        width: 50%;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .child5pic {
+        width: 100%;
+
+
+    }
+
+    /* ================================section six======================= */
+
+    .parentsix {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        padding-top: 100px;
+
+    }
+
+    .child6 {
+        width: 60%;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .child6pic {
+        width: 100%;
+
+
+    }
+
+    .childa6 {
+        width: 40%;
+        /* border: 1px solid blue; */
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-top: 50px;
+
+    }
+
+    .childa6text {
+        width: 50%;
+        /* border: 1px solid green; */
+    }
+
+    .distance1 {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    .distance3 {
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+
+    .learn5 {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        /* margin-left: 40px; */
+        margin-top: 30px;
+        /* font-weight: bold; */
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .learn5:hover.learn5 {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    /* ======================section seven===================== */
+
+    .parentseven {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        padding-top: 100px;
+    }
+
+    .child7 {
+        width: 40%;
+        /* border: 1px solid blue; */
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-top: 50px;
+
+    }
+
+    .child7text {
+        width: 50%;
+        /* border: 1px solid green; */
+    }
+
+    .distance4 {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    .distance5 {
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+
+    .learn6 {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        /* margin-left: 40px; */
+        margin-top: 30px;
+        font-weight: bold;
+        color: white;
+        font-size: 10px;
+
+    }
+
+    .learn6:hover.learn6 {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+
+
+    .childb7 {
+        width: 60%;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .child7pic {
+        width: 100%;
+
+
+    }
+
+    /* ===========================section eight============================ */
+
+    .parenteight {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        padding-top: 100px;
+    }
+
+    .child8 {
+        width: 60%;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .child8pic {
+        width: 100%;
+
+
+    }
+
+    .childa8 {
+        width: 40%;
+        /* border: 1px solid blue; */
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-top: 50px;
+
+    }
+
+    .child8text {
+        width: 50%;
+        /* border: 1px solid green; */
+    }
+
+    .distance6 {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    .distance7 {
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+
+    .learn7 {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        /* margin-left: 40px; */
+        margin-top: 30px;
+        font-weight: bold;
+        color: white;
+        font-size: 10px;
+
+    }
+
+    .learn7:hover.learn7 {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    /* ======================section nine===================== */
+
+    .parentnine {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        padding-top: 100px;
+    }
+
+    .child9 {
+        width: 40%;
+        /* border: 3px solid blue; */
+        padding-left: 50px;
+        padding-top: 50px;
+        justify-content: space-between;
+
+    }
+
+    .child9text {
+        width: 50%;
+        /* border: 1px solid green; */
+    }
+
+    .distance9 {
+        font-size: 30px;
+        margin-top: 30px;
+
+    }
+
+    .distancea9 {
+        font-size: 20px;
+        margin-top: 50px;
+
+    }
+
+    .learn8 {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        margin-top: 20px;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .learn8:hover.learn8 {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    .childb9 {
+        width: 60%;
+        /* height: max-content; */
+        display: flex;
+        align-items: center;
+        /* border: 1px solid blue; */
+        position: relative;
+
+
+    }
+
+    .child9pic {
+        width: 100%;
+
+
+    }
+
+    .childc9 {
+        width: 100%;
+        /* height: 90%; */
+        /* border: 1px solid blue; */
+        position: relative;
+
+    }
+
+    .childa9b {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* ===================section ten/======================================== */
+
+    .parentten {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid blue; */
+        padding-top: 100px;
+    }
+
+    .childten {
+
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .team {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 30px;
+
+    }
+
+    .package {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+
+    .start {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+
+    }
+
+    .start:hover.start {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    /* ===================SECTION ELEVEN==================================== */
+
+
+
+    .picmove {
+
+        width: 100%;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+
+    }
+
+    .picshowup {
+        width: 95%;
+        height: max-content;
+        /* border: 3px solid orangered; */
+        display: flex;
+        position: relative;
+    }
+
+    .picup1 {
+
+        width: 7%;
+        /* background-color: sienna; */
+        /* border: 3px solid goldenrod; */
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .picup2 {
+
+        width: 25%;
+        /* background-color: violet; */
+        /* border: 3px solid lightcoral; */
+        position: absolute;
+        left: 6%;
+        top: 21%;
+        z-index: 2;
+    }
+
+    .fram {
+        width: 100%;
+    }
+
+
+
+    .picup3 {
+
+        width: 18%;
+        /* background-color: aqua; */
+        /* border: 3px solid green; */
+        position: absolute;
+        left: 22%;
+        top: 5%;
+        z-index: 1;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .picup4 {
+
+        width: 10%;
+        /* background-color: brown; */
+        /* border: 3px solid goldenrod; */
+        position: absolute;
+        left: 29%;
+        top: 10%;
+    }
+
+    .leftgirl {
+        width: 100%;
+    }
+
+    .picup5 {
+
+        width: 18%;
+        /* background-color: hotpink; */
+        /* border: 3px solid orangered; */
+        position: absolute;
+        left: 20%;
+        top: 70%;
+    }
+
+    .horna2 {
+        width: 100%;
+    }
+
+
+    .picup6 {
+
+        width: 15.5%;
+        /* background-color: blue; */
+        /* border: 3px solid red; */
+        position: absolute;
+        left: 41%;
+        top: 18%;
+
+    }
+
+    .midalman {
+        width: 100%;
+    }
+
+    .picup7 {
+
+        width: 5%;
+        /* background-color: royalblue; */
+        /* border: 3px solid black; */
+        position: absolute;
+        left: 56%;
+        top: 5%;
+        z-index: 1;
+    }
+
+    .lefthorn {
+        width: 100%;
+    }
+
+
+
+    .picup8 {
+
+        width: 11%;
+        /* background-color: yellow; */
+        /* border: 3px solid yellow; */
+        position: absolute;
+        left: 57%;
+        top: 28%;
+        z-index: 1;
+    }
+
+    .leftboy {
+        width: 100%;
+    }
+
+    .picup9 {
+
+        width: 10%;
+        /* background-color: orange; */
+        /* border: 3px solid blue; */
+        position: absolute;
+        left: 67%;
+        top: 47%;
+        z-index: 1;
+    }
+
+    .rightboy {
+        width: 100%;
+    }
+
+    .picup10 {
+
+        width: 15%;
+        /* background-color: palegreen; */
+        /* border: 3px solid springgreen; */
+        position: absolute;
+        left: 75%;
+        top: 10%;
+        z-index: 1;
+    }
+
+    .rightgirl {
+        width: 100%;
+    }
+
+
+    .picup11 {
+
+        width: 8%;
+        /* background-color: lightcoral; */
+        /* border: 3px solid yellow; */
+        position: absolute;
+        left: 72%;
+        top: 70%;
+        z-index: 1;
+    }
+
+    .paper {
+        width: 100%;
+    }
+
+    .picup13 {
+
+        width: 20%;
+        /* background-color: crimson; */
+        /* border: 3px solid orange; */
+        position: absolute;
+        right: 0%;
+        top: 5%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .picup14 {
+
+        width: 45%;
+        /* background-color: crimson; */
+        height: max-content;
+        /* border: 3px solid orange; */
+        margin: auto;
+
+
+    }
+
+    .picup14 img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+
+
+    /* ======================section 12================================= */
+
+
+
+
+    .twelve {
+
+        width: 100%;
+        /* border: 3px solid blue; */
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .casestudie {
+        width: 95%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .casetext {
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .caseone {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .one {
+
+        font-size: 30px;
+    }
+
+    .two {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+
+    .case {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        margin-top: 45px;
+        margin-right: 10px;
+        color: white;
+        font-size: 15px;
+
+    }
+
+    .case:hover.case {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    .casestudie2 {
+        width: 100%;
+        display: flex;
+    }
+
+    .studyflex {
+        width: 100%;
+        height: 800px;
+        /* border: 3px solid yellow; */
+        padding-top: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .input-1:checked~.studyslider {
+        margin-left: 0%;
+
+    }
+
+    .input-2:checked~.studyslider {
+        margin-left: -100%;
+    }
+
+    .input-3:checked~.studyslider {
+        margin-left: -200%;
+
+
+    }
+
+    .input-1 {
+        position: absolute;
+        bottom: 10px;
+        color: aqua;
+        /* background-color: aqua; */
+        left: 710px;
+
+    }
+
+    .input-2 {
+        position: absolute;
+        bottom: 10px;
+        background-color: black;
+        left: 730px;
+    }
+
+    .input-3 {
+        position: absolute;
+        bottom: 10px;
+        background-color: black;
+        left: 750px;
+        /* display: none; */
+    }
+
+    .input-4 {
+        position: absolute;
+        bottom: 10px;
+        background-color: black;
+        left: 770px;
+        display: none;
+    }
+
+    .input-5 {
+        position: absolute;
+        bottom: 10px;
+        background-color: blue;
+        left: 790px;
+        display: none;
+    }
+
+    .input-6 {
+        position: absolute;
+        bottom: 10px;
+        background-color: blue;
+        left: 690px;
+        display: none;
+    }
+
+    .input-7 {
+        position: absolute;
+        bottom: 10px;
+        background-color: blue;
+        left: 670px;
+        display: none;
+    }
+
+    .input-8 {
+        position: absolute;
+        bottom: 10px;
+        background-color: blue;
+        left: 650px;
+        display: none;
+    }
+
+    .input-9 {
+        position: absolute;
+        bottom: 10px;
+        background-color: blue;
+        left: 630px;
+        display: none;
+    }
+
+
+
+
+
+    .studyslider {
+        width: 300%;
+        height: 700px;
+        /* border: 4px solid green; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        transition: 1s;
+    }
+
+    .studybox1 {
+        width: 10%;
+        height: 650px;
+        /* border: 1px solid yellow; */
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0px;
+        padding-left: 20px;
+        box-shadow: 7px 7px 0px 0px rgb(234, 237, 239);
+
+    }
+
+    .clash {
+        width: 95%;
+        height: 280px;
+        /* border: 1px solid brown; */
+        /* background-color: blueviolet; */
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+
+    }
+
+    .clash1 {
+        width: 50%;
+    }
+
+    .clashtext {
+        padding-top: 30px;
+    }
+
+
+    .eye {
+        width: 90%;
+        /* border: 1px solid gray; */
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .eyes {
+        width: 50%;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        padding-left: 50px;
+
+    }
+
+    .leftborder {
+        border-left: 1px solid gray;
+
+    }
+
+    .eyesin {
+        width: 60%;
+    }
+
+    .eyes h2 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .eye1 {
+
+        width: 90%;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .eyetext {
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+        /* align-items: center; */
+        width: 50%;
+    }
+
+    .learnslide {
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        margin-left: 60px;
+        margin-top: 45px;
+        /* margin-right: 10px; */
+        color: white;
+        font-size: 15px;
+
+    }
+
+    .learnslide:hover.learnslide {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    /* ===================sction thirteen=================================== */
+
+
+    .formarea {
+        width: 100%;
+        /* height: 150vh; */
+        /* border: 1px solid green; */
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        /* padding-top: 100px; */
+
+    }
+
+    .form1 {
+        width: 800px;
+        /* height: 100%; */
+        flex-direction: column;
+        /* border: 1px solid blue; */
+    }
+
+    .formpic {
+        width: 100%;
+        /* border: 1px solid red */
+    }
+
+    .hero2 {
+        width: 200px;
+    }
+
+
+    .camplain {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .camplain h3 {
+
+        font-size: 35px;
+    }
+
+    .camplain p {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .formdesigne {
+        width: 100%;
+        height: max-content;
+        /* border: 1px solid black; */
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+
+    .formin {
+
+        width: 47%;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+        box-shadow: 5px 5px 0px 0px rgb(162, 253, 233);
+    }
+
+    .formin1 {
+
+        width: 96%;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+        box-shadow: 5px 5px 0px 0px rgb(162, 253, 233);
+    }
+
+
+    .chatus {
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(0, 188, 165);
+        margin-left: 40%;
+        margin-top: 10%;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 15px;
+
+    }
+
+    .chatus:hover.chatus {
+        background-color: black;
+        color: rgb(0, 200, 175);
+        transition: 1s;
+
+
+    }
+
+    /* ======================section forteen======================================= */
+
+    .footer {
+        width: 100%;
+        /* height: 80vh; */
+        /* border: 1px solid blue; */
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .inerfooter {
+        width: 95%;
+        /* height: 100%; */
+        /* border: 1px solid; */
+
+
+    }
+
+    .icon {
+        width: 100%;
+        /* height: 400px; */
+        /* border: 1px solid greenyellow; */
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .img1 {
+        width: 200px;
+        /* height: 100%; */
+        /* background-color: antiquewhite; */
+        /* border: 3px solid black; */
+        /* padding-top: 40px; */
+
+    }
+
+    .footerimg {
+        width: 100%;
+
+    }
+
+    .icons {
+        width: 100%;
+        /* height: 100%; */
+        /* border: 3px solid red; */
+        /* background-color: cadetblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .logoimg {
+        width: 100px;
+        padding-bottom: 20px;
+
+    }
+
+    .imgicon {
+        width: 200px;
+    }
+
+    .logotext {
+        width: 300px;
+        /* border: 1px solid hotpink; */
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .socialicon {
+
+        width: 300px;
+        display: flex;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+
+    }
+
+    .faceall {
+        width: 20%;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+        /* border: 1px solid black; */
+        color: rgb(0, 188, 165);
+    }
+
+
+    .sublist {
+        width: 100%;
+        /* height: 50%; */
+        /* border: 1px solid green; */
+        /* background-color: violet; */
+        display: flex;
+    }
+
+    .sublist1 {
+
+        width: 20%;
+        /* height: 100%; */
+        /* border: 1px solid orange; */
+    }
+
+    .sublist1 ul {
+
+        list-style: none;
+
+    }

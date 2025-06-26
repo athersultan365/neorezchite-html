@@ -1,0 +1,670 @@
+@media screen and (max-width:1440px) {
+
+    .parent-sliderr {
+        top: 180px;
+
+    }
+
+}
+
+@media screen and (max-width:1210px) {
+
+    .circleorange {
+        width: 120px;
+        height: 120px;
+
+
+
+    }
+
+    .circleorange2 {
+        width: 120px;
+        height: 120px;
+
+
+
+    }
+
+
+
+
+    .circleorange3 {
+
+        width: 70px;
+        height: 70px;
+    }
+
+    .parent-sliderr {
+        height: 120px;
+        top: 200px;
+
+
+    }
+
+
+
+    .inercolor {
+        border-top-right-radius: 20px;
+        width: 60px;
+        top: 80px;
+        right: 70px;
+
+    }
+
+    .bar {
+        top: 150px;
+        left: 40px;
+        width: 120px;
+
+
+    }
+
+    .dot {
+
+        top: 151px;
+        left: 90px;
+        width: 180px;
+
+
+
+    }
+
+    .waives {
+
+        top: 80px;
+        left: 30px;
+
+
+
+    }
+
+    .bitbox {
+        width: 200px;
+        top: 220px;
+        left: 50px;
+
+
+
+    }
+
+
+
+    .line {
+        width: 150px;
+        left: 200px;
+
+    }
+
+    .line2 {
+        width: 150px;
+        /* left: 200px; */
+
+    }
+
+}
+
+
+@media screen and (max-width:1125px) {
+
+
+    .bar {
+        top: 130px;
+        left: 40px;
+        width: 120px;
+
+
+    }
+
+    .dot {
+
+        top: 130px;
+        left: 70px;
+        height: 28px;
+        width: 180px;
+
+
+
+    }
+
+    .circleorange3 {
+        width: 60px;
+        height: 60px;
+        top: 90px;
+        right: 10px;
+        display: none;
+
+    }
+
+    .inercolor {
+        display: none;
+        /* border-top-right-radius: 30px;
+        width: 18%;
+        top: 60px;
+        right: 70px; */
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width:1025px) {
+
+
+    .parenttwo {
+        display: none;
+    }
+
+    .secondmanu {
+        display: block;
+        display: flex;
+    }
+
+    .bar {
+
+
+        display: none;
+    }
+
+    .dot {
+
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 938px) {
+
+
+    .circleorange {
+        height: 120px;
+        width: 120px;
+    }
+
+    .child3 {
+
+        height: 90vh;
+
+
+    }
+
+    .child4 {
+
+        height: 90vh;
+
+
+    }
+
+
+}
+
+@media screen and (max-width:990px) {
+
+    .sublist1 {
+
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+
+
+
+
+}
+
+@media screen and (max-width:900px) {
+
+    .studyslider {
+        width: 430%;
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:820px) {
+
+    .chatus {
+        margin-left: 40%;
+
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 799px) {
+    /* .child4{
+
+height: max-content;
+
+
+    } */
+
+    .left-right {
+        flex-direction: column;
+
+    }
+
+    .child3 {
+        height: auto;
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .child4 {
+        height: auto;
+        width: 100%;
+        /* padding: top right bottom left; */
+        padding-bottom: 50px;
+    }
+
+    .bar {
+
+        display: block;
+        top: 170px;
+
+    }
+
+    .dot {
+
+        display: block;
+        top: 170px;
+        /* right: 0px; */
+        /* width: 34px; */
+
+    }
+
+    .circleorange3 {
+        width: 80px;
+        height: 80px;
+        display: block
+    }
+
+    .inercolor {
+
+        display: block;
+        right: 90px
+    }
+
+    .waives {
+        top: 100px;
+        left: 40px;
+
+
+    }
+
+}
+
+@media screen and (max-width:765px) {
+    .arbanlog {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .childonelogo2 {
+        width: 100px;
+
+
+    }
+
+
+
+
+
+    .parentfive {
+
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+    .childa5 {
+
+        width: 100% !important;
+
+
+    }
+
+    .childb5 {
+
+        width: 100% !important;
+
+
+    }
+
+
+    .parentsix {
+
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .child6 {
+
+        width: 100% !important;
+
+
+    }
+
+    .childa6 {
+
+        width: 100% !important;
+
+
+    }
+
+
+    .parentseven {
+
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+
+
+    }
+
+    .child7 {
+
+        width: 100% !important;
+
+
+    }
+
+    .childb7 {
+
+        width: 100% !important;
+
+
+    }
+
+
+    .parenteight {
+
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .child8 {
+
+        width: 100% !important;
+
+
+    }
+
+    .childa8 {
+
+        width: 100% !important;
+
+
+    }
+
+
+    .parentnine {
+
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+
+
+    }
+
+    .child9 {
+
+        width: 100% !important;
+
+
+    }
+
+    .childb9 {
+
+        width: 100% !important;
+
+
+    }
+
+    .icon {
+        flex-direction: column;
+
+
+    }
+
+    .studyslider {
+        width: 880%;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width:645px) {
+
+
+    .logoarea {
+        width: 100%;
+        border: 1px solid green;
+        overflow: hidden;
+
+    }
+
+
+
+    .slidelogo {
+
+
+        animation-name: mover;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        overflow: hidden;
+
+
+
+
+    }
+
+    @keyframes mover {
+
+        0% {
+            margin-left: 0;
+        }
+
+
+
+        100% {
+            margin-left: -100%;
+
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+
+
+    .icon {
+        flex-direction: column;
+        flex-direction: column-reverse;
+
+
+    }
+
+    .logoimg {
+        padding-bottom: 20px;
+
+
+    }
+
+
+    .logotext {
+
+
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:571px) {
+
+    .formin {
+        width: 95%;
+
+
+    }
+
+
+}
+
+@media screen and (max-width:545px) {
+
+    .sublist {
+        flex-wrap: wrap;
+
+    }
+
+    .sublist1 {
+
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 491px) {
+    .circleorange {
+        height: 100px;
+        width: 100px;
+    }
+
+    .circleorange2 {
+        height: 80px;
+        width: 80px;
+    }
+
+}
+
+
+@media screen and (max-width:330px) {
+
+
+    .inercolor {
+        display: none;
+    }
+
+    .waives {
+        display: none;
+
+
+
+    }
+
+    .circleorange3 {
+        width: 30px;
+        height: 30px;
+        top: 50px;
+        right: 0px;
+
+    }
+
+    .bar {
+        width: 50px;
+        height: 10px;
+        top: 60px;
+        left: 20px;
+
+
+
+    }
+
+.dot{
+    width: 50px;
+    height: 10px;
+    top: 64px;
+    left: 6 0px;
+
+}
+
+
+    .sublist1 {
+
+        width: 100%;
+    }
+
+    .parent-sliderr {
+
+        top: 65px;
+        height: 50px;
+        left: 20px;
+
+
+    }
+
+    .line {
+        width: 50px;
+        top: 50px;
+        left: 80px;
+
+
+    }
+
+    .line2 {
+        width: 50px;
+        bottom: 0px;
+        left: 0px;
+
+
+    }
+
+    .horn {
+        width: 20px;
+        right: 40px;
+        bottom: 15px;
+
+
+
+
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:320px) {
+
+
+    .childea5 {
+
+        border: 3px solid black;
+        background-color: blueviolet;
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .chatus {
+        margin-left: 30%;
+
+
+
+    }
+
+
+
+
+}
